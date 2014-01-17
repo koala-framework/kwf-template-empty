@@ -4,7 +4,7 @@
         <?=$this->includeCode('header')?>
     </head>
     <body class="<?=$this->cssClass?>">
-        template
+        It Works!
         <?=$this->includeCode('footer')?>
     </body>
 </html>
