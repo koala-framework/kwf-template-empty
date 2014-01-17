@@ -1,8 +1,10 @@
 <?=$this->doctype('XHTML1_STRICT');?>
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
+        <?=$this->includeCode('header')?>
     </head>
-    <body class="frontend">
+    <body class="<?=$this->cssClass?>">
         template
+        <?=$this->includeCode('footer')?>
     </body>
 </html>
