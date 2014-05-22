@@ -11,10 +11,10 @@ class Theme_Component extends Kwf_Component_Theme_Abstract
     public static function getRootSettings()
     {
         $ret = array();
-        $ret['masterTemplate'] = 'themes/Theme/Master.tpl';
+        $ret['masterTemplate'] = 'theme/Theme/Master.tpl';
 
-        $ret['assets']['files'][] = 'web/themes/Theme/Master.scss';
-        $ret['assets']['files'][] = 'web/themes/Theme/Web.scss';
+        $ret['assets']['files'][] = 'web/theme/Theme/Master.scss';
+        $ret['assets']['files'][] = 'web/theme/Theme/Web.scss';
 
         return $ret;
     }
