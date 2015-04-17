@@ -1,5 +1,5 @@
 INSERT INTO `kwc_basic_text` (`component_id`, `content`, `content_edit`, `data`) VALUES
-('1-1-text', '<h1>\n  Koala Web Framework Empty Template\n</h1>\n<p>\n  <strong>Xour installation works properly!</strong>\n</p>', NULL, '[]');
+('1-1-text', '<h1>\n  Koala Web Framework Empty Template\n</h1>\n<p>\n  <strong>Your installation works properly!</strong>\n</p>', NULL, '[]');
 
 INSERT INTO `kwc_data` (`component_id`, `data`) VALUES
 ('1-1', '{"position":"left","image":""}');
