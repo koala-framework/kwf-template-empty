@@ -4,7 +4,9 @@
         <?=$this->includeCode('header')?>
     </head>
     <body class="<?=$this->cssClass?>">
-        It Works!
+        <div id="content">
+            <?=$this->componentWithMaster($this->componentWithMaster);?>
+        </div>
         <?=$this->includeCode('footer')?>
     </body>
 </html>
