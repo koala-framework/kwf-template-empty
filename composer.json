@@ -1,6 +1,6 @@
 {
     "require": {
-        "koala-framework/koala-framework": "3.8.x-dev"
+        "koala-framework/koala-framework": "3.9.x-dev"
     },
     "minimum-stability": "dev",
     "prefer-stable": true

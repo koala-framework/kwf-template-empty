@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "99bdf3b91e40abde0893076facc3410c",
+    "hash": "5597ffb5ef4a2e7d42e1ea46714112a7",
     "packages": [
         {
             "name": "koala-framework/composer-extra-assets",
@@ -51,16 +51,16 @@
         },
         {
             "name": "koala-framework/extjs2",
-            "version": "v2.3.0-p5",
+            "version": "v2.3.0-p6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/koala-framework/extjs2.git",
-                "reference": "b91b8006199c28dccb2f67e6e01dc7714366e96c"
+                "reference": "c9f75d7fd5b504be2f3d87c38ed7e3bfeb1f17f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koala-framework/extjs2/zipball/b91b8006199c28dccb2f67e6e01dc7714366e96c",
-                "reference": "b91b8006199c28dccb2f67e6e01dc7714366e96c",
+                "url": "https://api.github.com/repos/koala-framework/extjs2/zipball/c9f75d7fd5b504be2f3d87c38ed7e3bfeb1f17f6",
+                "reference": "c9f75d7fd5b504be2f3d87c38ed7e3bfeb1f17f6",
                 "shasum": ""
             },
             "type": "library",
@@ -70,7 +70,7 @@
             ],
             "description": "ExtJS JavaScript Library",
             "homepage": "http://www.sencha.com/products/extjs/",
-            "time": "2015-02-06 07:43:17"
+            "time": "2015-05-19 09:23:29"
         },
         {
             "name": "koala-framework/file-watcher",
@@ -113,16 +113,16 @@
         },
         {
             "name": "koala-framework/koala-framework",
-            "version": "3.8.x-dev",
+            "version": "3.9.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/koala-framework/koala-framework.git",
-                "reference": "2dae1d6e8e003c73bceaf4cb529c534282f4559d"
+                "reference": "b40702743705946c64b5b2fccd340f6ee4f2c212"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koala-framework/koala-framework/zipball/2dae1d6e8e003c73bceaf4cb529c534282f4559d",
-                "reference": "2dae1d6e8e003c73bceaf4cb529c534282f4559d",
+                "url": "https://api.github.com/repos/koala-framework/koala-framework/zipball/b40702743705946c64b5b2fccd340f6ee4f2c212",
+                "reference": "b40702743705946c64b5b2fccd340f6ee4f2c212",
                 "shasum": ""
             },
             "require": {
@@ -134,8 +134,10 @@
                 "koala-framework/library-silkicons": "1.3",
                 "koala-framework/library-swfupload": "2.2.*",
                 "koala-framework/sourcemaps": "0.2.0",
-                "koala-framework/zendframework1": "1.12.6.*",
+                "koala-framework/zendframework1": "1.12.13.*",
+                "sepia/po-parser": "4.2.0",
                 "symfony/console": "~2.5",
+                "symfony/process": "~2.5",
                 "twig/twig": "1.16.1"
             },
             "require-dev": {
@@ -158,12 +160,14 @@
                     "underscore": "1.7.0",
                     "susy": "vivid-planet/susy#8161395e8ad5d75a0a15a0355feb9853ebaad369",
                     "compass-mixins": "1.0.2",
-                    "tinymce": "tinymce/tinymce#4.1.9"
+                    "tinymce": "tinymce/tinymce#4.1.9",
+                    "matches-selector": "1.0.3"
                 },
                 "require-npm": {
                     "uglify-js": "2.4.13",
                     "node-sass": "2.0.1",
                     "amdlc": "0.1.5",
+                    "esprima": "1.2.2",
                     "grunt": "0.4.*",
                     "grunt-cli": "0.1.*",
                     "grunt-modernizr": "0.5.2"
@@ -180,6 +184,10 @@
                         "koala-framework/composer-extra-assets",
                         "nodejs/nodejs"
                     ]
+                },
+                "kwf-lingohub": {
+                    "account": "koala-framework",
+                    "project": "koala-framework"
                 }
             },
             "autoload": {
@@ -194,7 +202,7 @@
             ],
             "description": "Framework and CMS based on Zend Framework and ExtJS",
             "homepage": "http://www.koala-framework.org/",
-            "time": "2015-05-18 09:22:05"
+            "time": "2015-06-03 11:33:17"
         },
         {
             "name": "koala-framework/library-css3pie",
@@ -363,20 +371,24 @@
         },
         {
             "name": "koala-framework/zendframework1",
-            "version": "v1.12.6-p2",
+            "version": "v1.12.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/koala-framework/zendframework1.git",
-                "reference": "b3cfdccbb6ebcf962ee132050fab0038d143c556"
+                "reference": "761702a302917eabfc6e5952e5b31d9c78bf5d64"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koala-framework/zendframework1/zipball/b3cfdccbb6ebcf962ee132050fab0038d143c556",
-                "reference": "b3cfdccbb6ebcf962ee132050fab0038d143c556",
+                "url": "https://api.github.com/repos/koala-framework/zendframework1/zipball/761702a302917eabfc6e5952e5b31d9c78bf5d64",
+                "reference": "761702a302917eabfc6e5952e5b31d9c78bf5d64",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.2.11"
+            },
+            "require-dev": {
+                "phpunit/dbunit": "1.3.*",
+                "phpunit/phpunit": "3.7.*"
             },
             "type": "library",
             "extra": {
@@ -402,7 +414,7 @@
                 "ZF1",
                 "framework"
             ],
-            "time": "2015-03-04 15:09:37"
+            "time": "2015-05-20 16:47:04"
         },
         {
             "name": "mouf/nodejs-installer",
@@ -499,22 +511,69 @@
             "time": "2012-12-21 11:40:51"
         },
         {
-            "name": "symfony/console",
-            "version": "v2.6.7",
-            "target-dir": "Symfony/Component/Console",
+            "name": "sepia/po-parser",
+            "version": "4.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/Console.git",
-                "reference": "ebc5679854aa24ed7d65062e9e3ab0b18a917272"
+                "url": "https://github.com/raulferras/PHP-po-parser.git",
+                "reference": "8e5c3d5d6d5a4c6584249d82dc75eb1490cb8470"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Console/zipball/ebc5679854aa24ed7d65062e9e3ab0b18a917272",
-                "reference": "ebc5679854aa24ed7d65062e9e3ab0b18a917272",
+                "url": "https://api.github.com/repos/raulferras/PHP-po-parser/zipball/8e5c3d5d6d5a4c6584249d82dc75eb1490cb8470",
+                "reference": "8e5c3d5d6d5a4c6584249d82dc75eb1490cb8470",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3"
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*",
+                "squizlabs/php_codesniffer": "1.5.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Sepia": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Raúl Ferràs",
+                    "email": "raul.ferras@gmail.com",
+                    "role": "developer"
+                }
+            ],
+            "description": "Gettext *.PO file parser for PHP.",
+            "homepage": "https://github.com/raulferras/PHP-po-parser",
+            "keywords": [
+                "gettext",
+                "i10n",
+                "i18n",
+                "po"
+            ],
+            "time": "2015-01-22 11:03:32"
+        },
+        {
+            "name": "symfony/console",
+            "version": "v2.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Console.git",
+                "reference": "7f0bec04961c61c961df0cb8c2ae88dbfd83f399"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/7f0bec04961c61c961df0cb8c2ae88dbfd83f399",
+                "reference": "7f0bec04961c61c961df0cb8c2ae88dbfd83f399",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
             },
             "require-dev": {
                 "psr/log": "~1.0",
@@ -530,11 +589,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.6-dev"
+                    "dev-master": "2.7-dev"
                 }
             },
             "autoload": {
-                "psr-0": {
+                "psr-4": {
                     "Symfony\\Component\\Console\\": ""
                 }
             },
@@ -554,25 +613,24 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2015-05-02 15:18:45"
+            "time": "2015-05-29 16:22:24"
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v2.6.7",
-            "target-dir": "Symfony/Component/EventDispatcher",
+            "version": "v2.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/EventDispatcher.git",
-                "reference": "672593bc4b0043a0acf91903bb75a1c82d8f2e02"
+                "reference": "687039686d0e923429ba6e958d0baa920cd5d458"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/672593bc4b0043a0acf91903bb75a1c82d8f2e02",
-                "reference": "672593bc4b0043a0acf91903bb75a1c82d8f2e02",
+                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/687039686d0e923429ba6e958d0baa920cd5d458",
+                "reference": "687039686d0e923429ba6e958d0baa920cd5d458",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3"
+                "php": ">=5.3.9"
             },
             "require-dev": {
                 "psr/log": "~1.0",
@@ -589,11 +647,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.6-dev"
+                    "dev-master": "2.7-dev"
                 }
             },
             "autoload": {
-                "psr-0": {
+                "psr-4": {
                     "Symfony\\Component\\EventDispatcher\\": ""
                 }
             },
@@ -613,25 +671,24 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2015-05-02 15:18:45"
+            "time": "2015-05-02 15:21:08"
         },
         {
             "name": "symfony/finder",
-            "version": "v2.6.7",
-            "target-dir": "Symfony/Component/Finder",
+            "version": "v2.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Finder.git",
-                "reference": "704c64c8b12c8882640d5c0330a8414b1e06dc99"
+                "reference": "ccb8ed8339cf24824f2ef35dacec30d92ff44368"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Finder/zipball/704c64c8b12c8882640d5c0330a8414b1e06dc99",
-                "reference": "704c64c8b12c8882640d5c0330a8414b1e06dc99",
+                "url": "https://api.github.com/repos/symfony/Finder/zipball/ccb8ed8339cf24824f2ef35dacec30d92ff44368",
+                "reference": "ccb8ed8339cf24824f2ef35dacec30d92ff44368",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3"
+                "php": ">=5.3.9"
             },
             "require-dev": {
                 "symfony/phpunit-bridge": "~2.7"
@@ -639,11 +696,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.6-dev"
+                    "dev-master": "2.7-dev"
                 }
             },
             "autoload": {
-                "psr-0": {
+                "psr-4": {
                     "Symfony\\Component\\Finder\\": ""
                 }
             },
@@ -663,25 +720,24 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2015-05-02 15:18:45"
+            "time": "2015-05-15 14:02:48"
         },
         {
             "name": "symfony/process",
-            "version": "v2.6.7",
-            "target-dir": "Symfony/Component/Process",
+            "version": "v2.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Process.git",
-                "reference": "9f3c4baaf840ed849e1b1f7bfd5ae246e8509562"
+                "reference": "e0a82b58e36afc60f8e79b8bc85a22bb064077c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Process/zipball/9f3c4baaf840ed849e1b1f7bfd5ae246e8509562",
-                "reference": "9f3c4baaf840ed849e1b1f7bfd5ae246e8509562",
+                "url": "https://api.github.com/repos/symfony/Process/zipball/e0a82b58e36afc60f8e79b8bc85a22bb064077c1",
+                "reference": "e0a82b58e36afc60f8e79b8bc85a22bb064077c1",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3"
+                "php": ">=5.3.9"
             },
             "require-dev": {
                 "symfony/phpunit-bridge": "~2.7"
@@ -689,11 +745,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.6-dev"
+                    "dev-master": "2.7-dev"
                 }
             },
             "autoload": {
-                "psr-0": {
+                "psr-4": {
                     "Symfony\\Component\\Process\\": ""
                 }
             },
@@ -713,7 +769,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2015-05-02 15:18:45"
+            "time": "2015-05-15 13:33:16"
         },
         {
             "name": "twig/twig",
