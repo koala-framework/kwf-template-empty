@@ -1,2 +1,7 @@
+@import "form/default-styles";
 
 
+
+.kwfUp-webForm {
+    @include form-default-styles;
+}
