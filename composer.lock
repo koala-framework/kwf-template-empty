@@ -172,12 +172,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/koala-framework/koala-framework.git",
-                "reference": "87f55c97ebd41de14b969c1cd293df50fd72d849"
+                "reference": "524e4e1d9269ff67116dfecab82648c81d9f4cbd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koala-framework/koala-framework/zipball/87f55c97ebd41de14b969c1cd293df50fd72d849",
-                "reference": "87f55c97ebd41de14b969c1cd293df50fd72d849",
+                "url": "https://api.github.com/repos/koala-framework/koala-framework/zipball/524e4e1d9269ff67116dfecab82648c81d9f4cbd",
+                "reference": "524e4e1d9269ff67116dfecab82648c81d9f4cbd",
                 "shasum": ""
             },
             "require": {
@@ -263,7 +263,7 @@
             ],
             "description": "Framework and CMS based on Zend Framework and ExtJS",
             "homepage": "http://www.koala-framework.org/",
-            "time": "2016-01-15 12:33:49"
+            "time": "2016-01-19 09:48:22"
         },
         {
             "name": "koala-framework/kwf-trl-jsparser",
